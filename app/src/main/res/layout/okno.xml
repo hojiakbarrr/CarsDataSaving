@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edit_model"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:ems="10"
+android:text=""
+        android:gravity="center"
+        android:hint="модель авто"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:text=""
+        android:id="@+id/edit_price"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="цена машины"
+        android:inputType="number" />
+</LinearLayout>
